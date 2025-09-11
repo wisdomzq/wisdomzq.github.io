@@ -1,5 +1,5 @@
 # wisdomzq.github.io
 
-Welcome to mt website ✨
+Welcome to my website ✨
 
 
