@@ -17,5 +17,4 @@ Then open <http://localhost:8000>.
 - `index.html` — page content and metadata
 - `assets/css/academic-home.css` — responsive visual system
 - `assets/js/academic-home.js` — mobile navigation and active-section state
-- `assets/images/zequn-li.jpg` — optimized profile portrait
-
+- `assets/images/zequn-li-orange.jpg` — profile portrait used on the homepage
