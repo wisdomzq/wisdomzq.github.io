@@ -1,5 +1,5 @@
 title: "Zequn Li | 李泽群"
-description: "Zequn Li is an undergraduate researcher at Beijing Institute of Technology working on data systems, large language models, NLP, and computer vision."
+description: "Zequn Li, incoming Ph.D. student at Tsinghua University with Prof. Jiannan Wang. Data systems, efficient LLMs, and document analytics."
 url: "https://wisdomzq.github.io"
 baseurl: ""
 timezone: Asia/Shanghai
@@ -17,6 +17,7 @@ exclude:
   - _includes
   - _layouts
   - assets/README.md
+  - assets/images/papers/README.md
   - assets/css/main.css
   - assets/css/ie.css
   - assets/fonts
