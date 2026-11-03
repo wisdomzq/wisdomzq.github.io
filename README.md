@@ -53,6 +53,13 @@ preview with a source link when available. Escape, the close
 button, or a click on the backdrop closes the preview. Without JavaScript, figure
 links open the image directly, and all page content remains accessible.
 
+The English and Chinese biographies lead with the incoming Tsinghua direct-entry
+Ph.D. and identify **Prof. Jiannan Wang** as the advisor, with an expected start
+in 2027. Undergraduate study is summarized in one sentence about the BIT Computer
+Science and Technology Elite Class. The same emphasis and advisor wording are
+used in the admission news, metadata, and Education section. Undergraduate-advisor
+details are omitted; publication coauthor credits are unchanged.
+
 About includes the author's supplied **Current Research** statement on multimodal
 data processing on heterogeneous systems, focusing on Apple Silicon unified
 memory, CPU-GPU collaboration, resource contention, and adaptive execution.
@@ -60,13 +67,10 @@ It describes an ongoing research direction without disclosing methods or results
 
 Education lists the BIT undergraduate period as **2023–2027 (expected)** and
 the Tsinghua direct-entry Ph.D. as **Incoming, expected start in 2027**. The
-BIT entry identifies the Computer Science and Technology **Elite Class (拔尖班)**,
-**TELI College**, and research advisor **Prof. Chengliang Chai**, as confirmed by
-the author. The college's English name follows its
-[official introduction](https://xuteli.bit.edu.cn/xygk1/tlsy/xyjjtl/index.htm),
-and the advisor link points to [Chengliang Chai's homepage](https://chai-chengliang.github.io/).
-These details are also reflected in the English and Chinese biographies.
-For the Tsinghua stage, the prospective advisor is Prof. Jiannan Wang; the research group name is **Database
+BIT entry identifies the Computer Science and Technology **Elite Class (拔尖班)**
+and **TELI College**, as confirmed by the author. The college's English name follows its
+[official introduction](https://xuteli.bit.edu.cn/xygk1/tlsy/xyjjtl/index.htm).
+For the Tsinghua stage, the advisor is Prof. Jiannan Wang; the research group name is **Database
 Group**, verified against its [faculty list](https://dbgroup.cs.tsinghua.edu.cn/people.htm).
 Rows follow the reference homepage's emblem / institution details / dates layout;
 on narrow screens, dates move below the details while the emblem stays on the left.
