@@ -60,7 +60,13 @@ It describes an ongoing research direction without disclosing methods or results
 
 Education lists the BIT undergraduate period as **2023–2027 (expected)** and
 the Tsinghua direct-entry Ph.D. as **Incoming, expected start in 2027**. The
-prospective advisor is Prof. Jiannan Wang; the research group name is **Database
+BIT entry identifies the Computer Science and Technology **Elite Class (拔尖班)**,
+**TELI College**, and research advisor **Prof. Chengliang Chai**, as confirmed by
+the author. The college's English name follows its
+[official introduction](https://xuteli.bit.edu.cn/english/COLLEGELIFE/Introductionc/34842ac17d9444b89e5779497dc96593.htm),
+and the advisor link points to [Chengliang Chai's homepage](https://chai-chengliang.github.io/).
+These details are also reflected in the English and Chinese biographies.
+For the Tsinghua stage, the prospective advisor is Prof. Jiannan Wang; the research group name is **Database
 Group**, verified against its [faculty list](https://dbgroup.cs.tsinghua.edu.cn/people.htm).
 Rows follow the reference homepage's emblem / institution details / dates layout;
 on narrow screens, dates move below the details while the emblem stays on the left.
