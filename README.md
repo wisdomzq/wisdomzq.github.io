@@ -63,7 +63,7 @@ the Tsinghua direct-entry Ph.D. as **Incoming, expected start in 2027**. The
 BIT entry identifies the Computer Science and Technology **Elite Class (拔尖班)**,
 **TELI College**, and research advisor **Prof. Chengliang Chai**, as confirmed by
 the author. The college's English name follows its
-[official introduction](https://xuteli.bit.edu.cn/english/COLLEGELIFE/Introductionc/34842ac17d9444b89e5779497dc96593.htm),
+[official introduction](https://xuteli.bit.edu.cn/xygk1/tlsy/xyjjtl/index.htm),
 and the advisor link points to [Chengliang Chai's homepage](https://chai-chengliang.github.io/).
 These details are also reflected in the English and Chinese biographies.
 For the Tsinghua stage, the prospective advisor is Prof. Jiannan Wang; the research group name is **Database
@@ -71,6 +71,8 @@ Group**, verified against its [faculty list](https://dbgroup.cs.tsinghua.edu.cn/
 Rows follow the reference homepage's emblem / institution details / dates layout;
 on narrow screens, dates move below the details while the emblem stays on the left.
 University emblems are copied unchanged from their official visual-identity pages.
+University, department, and college links (including the emblem links) point to
+their Chinese-language official websites; the homepage's English text is unchanged.
 No doctoral graduation year is inferred. GPA, class rank, and author-position
 labels remain omitted. The admission news stays labeled “Latest” because no
 admission announcement date was provided.
