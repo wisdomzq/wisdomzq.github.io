@@ -20,6 +20,7 @@ Then open <http://localhost:8000>.
 - `assets/images/zequn-li-orange.jpg` — profile portrait used on the homepage
 - `assets/images/papers/` — publication figures and source notes
 - `assets/images/projects/` — author-provided EditBanana and Qiyan Program figures
+- `assets/images/institutions/` — official university emblems and source notes
 - `assets/type/` — self-hosted Outfit variable font and its SIL Open Font License
 
 ## Design and content
@@ -52,8 +53,20 @@ preview with a source link when available. Escape, the close
 button, or a click on the backdrop closes the preview. Without JavaScript, figure
 links open the image directly, and all page content remains accessible.
 
-The introduction describes the Tsinghua admission as **incoming**, not already
-enrolled. The admission news is labeled “Latest” because no admission date was
-provided. Education, GPA, class rank, and author-position labels remain omitted.
+About includes the author's supplied **Current Research** statement on multimodal
+data processing on heterogeneous systems, focusing on Apple Silicon unified
+memory, CPU-GPU collaboration, resource contention, and adaptive execution.
+It describes an ongoing research direction without disclosing methods or results.
+
+Education lists the BIT undergraduate period as **2023–2027 (expected)** and
+the Tsinghua direct-entry Ph.D. as **Incoming, expected start in 2027**. The
+prospective advisor is Prof. Jiannan Wang; the research group name is **Database
+Group**, verified against its [faculty list](https://dbgroup.cs.tsinghua.edu.cn/people.htm).
+Rows follow the reference homepage's emblem / institution details / dates layout;
+on narrow screens, dates move below the details while the emblem stays on the left.
+University emblems are copied unchanged from their official visual-identity pages.
+No doctoral graduation year is inferred. GPA, class rank, and author-position
+labels remain omitted. The admission news stays labeled “Latest” because no
+admission announcement date was provided.
 
 Outfit is distributed under the SIL Open Font License; see `assets/type/OFL-Outfit.txt`.
