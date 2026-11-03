@@ -15,7 +15,7 @@
     <link rel="canonical" href="https://wisdomzq.github.io/">
     <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
     <link rel="preload" href="/assets/type/outfit-variable.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="stylesheet" href="/assets/css/academic-home.css?v=20261103">
+    <link rel="stylesheet" href="/assets/css/academic-home.css?v=20261103-highlights">
     <title>Zequn Li | 李泽群</title>
     <script type="application/ld+json">
       {
@@ -57,7 +57,6 @@
           <a class="section-nav__link" href="#about" aria-current="location">About</a>
           <a class="section-nav__link" href="#news">News</a>
           <a class="section-nav__link" href="#research">Research</a>
-          <a class="section-nav__link" href="#projects">Projects</a>
           <a class="section-nav__link" href="#awards">Honors</a>
         </div>
       </div>
@@ -130,11 +129,15 @@
 
       <section class="page-section" id="research" aria-labelledby="research-title">
         <div class="section-heading">
-          <h2 class="section-title" id="research-title">Publications</h2>
-          <a class="section-heading__link" href="https://scholar.google.com/citations?user=GPgDgT0AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+          <h2 class="section-title" id="research-title">All Research</h2>
+          <div class="research-controls">
+            <button class="research-toggle" id="research-toggle" type="button" aria-controls="research-list" aria-expanded="false" hidden>All Research</button>
+            <a class="section-heading__link" href="https://scholar.google.com/citations?user=GPgDgT0AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <div class="publication-list">
-          <article class="paper-row" aria-labelledby="docdb-title">
+        <p class="visually-hidden" id="research-status" role="status" aria-live="polite"></p>
+        <div class="research-list" id="research-list">
+          <article class="paper-row" id="docdb" data-highlight="true" aria-labelledby="docdb-title">
             <a class="paper-figure" href="/assets/images/papers/docdb-framework.png" data-figure data-caption="DocDB — two-level indexing, evidence-augmented retrieval, and adaptive query optimization." data-source="https://www.vldb.org/pvldb/vol18/p5387-chai.pdf#page=2" data-source-label="Figure 1 · Original paper" aria-label="Enlarge the DocDB framework figure">
               <img src="/assets/images/papers/docdb-framework-thumb.webp" alt="DocDB framework showing two-level index construction, evidence-augmented segment retrieval, and query optimization" width="1227" height="616" loading="lazy" decoding="async">
               <span class="paper-figure__zoom" aria-hidden="true"><svg class="icon"><use href="#icon-expand"/></svg></span>
@@ -143,7 +146,7 @@
               <h3 class="paper-title" id="docdb-title"><a href="https://www.vldb.org/pvldb/vol18/p5387-chai.pdf" target="_blank" rel="noopener noreferrer">DocDB: A Database for Unstructured Document Analysis</a></h3>
               <p class="authors"><strong class="author-self">Zequn Li</strong>, Yuanhao Zhong, Chengliang Chai, Zhaoze Sun, Yuhao Deng, Ye Yuan, Guoren Wang, Lei Cao</p>
               <p class="paper-venue"><span>PVLDB 2025</span><span class="paper-type">Demo</span></p>
-              <p class="paper-description">SQL-like analysis of unstructured documents, using two-level indexing and adaptive execution to reduce LLM extraction costs.</p>
+              <p class="paper-description">Query unstructured documents with SQL-like operations. Two-level retrieval and document-specific execution plans reduce the amount of text and the number of calls sent to LLMs.</p>
               <div class="resource-links">
                 <a href="https://www.vldb.org/pvldb/vol18/p5387-chai.pdf" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-paper"/></svg>Paper</a>
                 <a href="https://github.com/wisdomzq/DocDB" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-github"/></svg>Code</a>
@@ -152,7 +155,7 @@
             </div>
           </article>
 
-          <article class="paper-row" aria-labelledby="ccl-title">
+          <article class="paper-row" id="ccl" data-highlight="true" aria-labelledby="ccl-title">
             <a class="paper-figure" href="/assets/images/papers/ccl-method-overview.webp" data-figure data-caption="CCL 2025 — macro-pattern prompting and efficient fine-tuning. Method overview redrawn from the paper." data-source="https://aclanthology.org/2025.ccl-2.14.pdf" data-source-label="Method overview · Based on the paper" aria-label="Enlarge the CCL factivity inference overview">
               <img src="/assets/images/papers/ccl-method-overview-thumb.webp" alt="Two independent factivity inference methods: macro-pattern prompting with Gemini 2.5 Pro, and LoRA fine-tuning of Qwen3-32B with GGUF quantization and Ollama deployment" width="1536" height="1024" loading="lazy" decoding="async">
               <span class="paper-figure__zoom" aria-hidden="true"><svg class="icon"><use href="#icon-expand"/></svg></span>
@@ -161,7 +164,7 @@
               <h3 class="paper-title" id="ccl-title"><a href="https://aclanthology.org/2025.ccl-2.14/" target="_blank" rel="noopener noreferrer">CCL25-Eval Task 4 System Report: Macro-Pattern Prompting and Efficient Fine-tuning for Factivity Inference</a></h3>
               <p class="authors"><strong class="author-self">Zequn Li</strong>, Yuanhao Zhong, Chengliang Chai</p>
               <p class="paper-venue"><span>CCL 2025</span><span class="paper-type">Oral</span></p>
-              <p class="paper-description">Macro-pattern prompting and efficient Qwen3-32B fine-tuning for Chinese factivity inference, achieving 94.01% accuracy in the prompting track.</p>
+              <p class="paper-description">Inferring whether an event is factual from Chinese text. Macro-pattern prompting and efficient Qwen3-32B fine-tuning reach <strong>94.01%</strong> and <strong>92.61%</strong> accuracy in their respective tracks.</p>
               <div class="resource-links">
                 <a href="https://aclanthology.org/2025.ccl-2.14/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-paper"/></svg>Paper</a>
                 <a href="https://aclanthology.org/2025.ccl-2.14.pdf" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-link"/></svg>PDF</a>
@@ -169,7 +172,20 @@
             </div>
           </article>
 
-          <article class="paper-row" aria-labelledby="oie-title">
+          <article class="paper-row" id="projects" data-highlight="true" aria-labelledby="qiyan-title">
+            <a class="paper-figure" href="/assets/images/projects/qiyan-framework.png" data-figure data-caption="Qiyan Program — contrastive document representations, adaptive document sampling, QA extraction, and optimal-transport feedback." aria-label="Enlarge the Qiyan research framework">
+              <img src="/assets/images/projects/qiyan-framework-thumb.webp" alt="Qiyan framework with document clustering, adaptive sampling, QA extraction, contrastive learning, and optimal-transport evaluation" width="930" height="452" loading="lazy" decoding="async">
+              <span class="paper-figure__zoom" aria-hidden="true"><svg class="icon"><use href="#icon-expand"/></svg></span>
+            </a>
+            <div class="paper-content">
+              <h3 class="paper-title" id="qiyan-title">Efficient Instruction-Tuning Data Extraction for Large Language Models</h3>
+              <p class="project-meta">Project lead <span aria-hidden="true">·</span> Qiyan Program (<span lang="zh-CN">启研计划</span>)</p>
+              <p class="paper-description">Extract high-value QA pairs for LLM instruction tuning without scanning every document. Contrastive representations, adaptive sampling, and optimal-transport feedback guide where to extract next.</p>
+              <p class="project-note">Beijing Natural Science Foundation · CNY 50,000 research grant</p>
+            </div>
+          </article>
+
+          <article class="paper-row" id="oie" data-highlight="false" aria-labelledby="oie-title">
             <a class="paper-figure" href="/assets/images/papers/oie-interface.png" data-figure data-caption="OIE — interactive outlier exploration, cluster visualization, and interpretable rules." data-source="https://chai-chengliang.github.io/" data-source-label="Image source · Coauthor’s homepage" aria-label="Enlarge the OIE system interface">
               <img src="/assets/images/papers/oie-interface-thumb.webp" alt="OIE system interface with cluster visualization, generated outlier rules, data preview, and a rule tree" width="1292" height="690" loading="lazy" decoding="async">
               <span class="paper-figure__zoom" aria-hidden="true"><svg class="icon"><use href="#icon-expand"/></svg></span>
@@ -185,25 +201,20 @@
               </div>
             </div>
           </article>
-        </div>
-      </section>
 
-      <section class="page-section" id="projects" aria-labelledby="projects-title">
-        <h2 class="section-title" id="projects-title">Research &amp; Open Source</h2>
-        <div class="project-list">
-          <article class="project-row">
-            <h3>Efficient Instruction-Tuning Data Extraction for Large Language Models</h3>
-            <p class="project-meta">Project lead <span aria-hidden="true">·</span> Beijing Natural Science Foundation</p>
-            <p>A “warm-up and iterate” data selection framework combining contrastive learning, multi-armed bandits, and optimal transport to locate high-value data without exhaustive scanning.</p>
-            <p class="project-note">Undergraduate “Qi Yan” program · CNY 50,000 research grant</p>
-          </article>
-          <article class="project-row">
-            <h3><a href="https://editbanana.net/" target="_blank" rel="noopener noreferrer">EditBanana: Editable Reconstruction of Static Diagrams</a></h3>
-            <p class="project-meta">Core contributor <span aria-hidden="true">·</span> Open source</p>
-            <p>Contributed visual-analysis modules for font and font-size recognition, icon extraction, and container detection, reconstructing static diagrams as editable DrawIO elements.</p>
-            <div class="resource-links">
-              <a href="https://editbanana.net/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-link"/></svg>Project</a>
-              <a href="https://github.com/BIT-DataLab/Edit-Banana" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-github"/></svg>Code</a>
+          <article class="paper-row" id="editbanana" data-highlight="false" aria-labelledby="editbanana-title">
+            <a class="paper-figure" href="/assets/images/projects/editbanana-example.png" data-figure data-caption="EditBanana — an example of detected elements in a scientific diagram, provided by the author." data-source="https://editbanana.net/" data-source-label="EditBanana · Project website" aria-label="Enlarge the EditBanana diagram example">
+              <img src="/assets/images/projects/editbanana-example-thumb.webp" alt="EditBanana example showing detected text, images, shapes, and connectors in a cow-face verification workflow" width="1395" height="770" loading="lazy" decoding="async">
+              <span class="paper-figure__zoom" aria-hidden="true"><svg class="icon"><use href="#icon-expand"/></svg></span>
+            </a>
+            <div class="paper-content">
+              <h3 class="paper-title" id="editbanana-title"><a href="https://editbanana.net/" target="_blank" rel="noopener noreferrer">EditBanana: Editable Reconstruction of Static Diagrams</a></h3>
+              <p class="project-meta">Core contributor <span aria-hidden="true">·</span> Open source</p>
+              <p class="paper-description">Contributed visual-analysis modules for font and font-size recognition, icon extraction, and container detection, reconstructing static diagrams as editable DrawIO elements.</p>
+              <div class="resource-links">
+                <a href="https://editbanana.net/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-link"/></svg>Project</a>
+                <a href="https://github.com/BIT-DataLab/Edit-Banana" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-github"/></svg>Code</a>
+              </div>
             </div>
           </article>
         </div>
@@ -249,6 +260,6 @@
       </figure>
       <a class="figure-source" id="figure-source" target="_blank" rel="noopener noreferrer"></a>
     </dialog>
-    <script src="/assets/js/academic-home.js?v=20261103" defer></script>
+    <script src="/assets/js/academic-home.js?v=20261103-highlights" defer></script>
   </body>
 </html>
